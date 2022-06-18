@@ -9,7 +9,7 @@ And also, I'm using this code on a `Manjaro Linux`, So It might have problems on
 I don't really have the time or care enough to make this code work on every single device, and on every OS,
 but at the very least I want it to work on all `Legion 7` Keyboards, preferably also on Windows.
 
-## What it does
+## What it does [Or Just Watch This](https://github.com/aliqandil/reactive-leds/raw/main/reactive-leds-demo.mp4)  
 Currently, the `reactive_leds` python package, is enough to do almost anything you want with your LEDs including the NEON and VENTS and the LOGO.
 There is also an `actions` directory, which is run in order by the `startservice.py` file.
 Check them out for some examples.
