@@ -1,0 +1,11 @@
+[Unit]
+Description=Reactive LEDs
+After=multi-user.target
+
+[Service]
+Type=simple
+Restart=always
+ExecStart=/opt/reactive-leds/.env/bin/python /opt/reactive-leds/startservice.py
+
+[Install]
+WantedBy=multi-user.target
